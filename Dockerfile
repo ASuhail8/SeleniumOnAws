@@ -51,4 +51,4 @@ ADD src/test/resources                  src/test/resources
 # HUB_HOST
 # MODULE
 
-ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* io.cucumber.core.cli.Main src/test/resources/features --tags "$TAGS" --glue stepDefinitions
+ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* io.cucumber.core.cli.Main src/test/resources/features --tags "$TAGS" --glue stepDefinitions --plugin pretty --monochrome
