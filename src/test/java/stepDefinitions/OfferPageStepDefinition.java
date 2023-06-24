@@ -3,9 +3,9 @@ package stepDefinitions;
 import org.testng.Assert;
 
 import io.cucumber.java.en.Then;
-import pageObjects.LandingPage;
-import pageObjects.OffersPage;
-import pageObjects.PageObjectManager;
+import rahulshettyacademy.CucumberFramework.pageObjects.LandingPage;
+import rahulshettyacademy.CucumberFramework.pageObjects.OffersPage;
+import rahulshettyacademy.CucumberFramework.pageObjects.PageObjectManager;
 import utils.TestContextSetup;
 
 public class OfferPageStepDefinition {

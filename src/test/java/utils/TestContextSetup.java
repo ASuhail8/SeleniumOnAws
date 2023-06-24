@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 
-import pageObjects.PageObjectManager;
+import rahulshettyacademy.CucumberFramework.pageObjects.PageObjectManager;
 
 public class TestContextSetup {
 

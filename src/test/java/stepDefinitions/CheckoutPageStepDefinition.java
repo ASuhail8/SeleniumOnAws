@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import io.cucumber.java.en.Then;
-import pageObjects.CheckoutPage;
+import rahulshettyacademy.CucumberFramework.pageObjects.CheckoutPage;
 import utils.TestContextSetup;
 
 public class CheckoutPageStepDefinition {
