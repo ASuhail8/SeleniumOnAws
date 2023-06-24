@@ -41,7 +41,8 @@ public class TestBase {
 
 		if (driver == null) {
 			if (browser.equalsIgnoreCase("chrome")) {
-				WebDriverManager.chromedriver().setup();
+				System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+				//WebDriverManager.chromedriver().setup();
 				//ChromeOptions options = new ChromeOptions();
 				//options.addArguments("--headless");
 				// System.setProperty("webdriver.chrome.driver",
